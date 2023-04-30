@@ -13,10 +13,12 @@
   gtag('config', 'G-H0KJ3YWTCB');
   </script>
 	
-  <script>
-  if (location.protocol !== 'https:') {
-    location.replace(`https:${location.href.substring(location.protocol.length)}`);
-  }
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+
+  <script type="text/python">
+    import browser
+    browser.window.location.href = "https://example.com"
   </script>
 
   <meta charset="utf-8">
