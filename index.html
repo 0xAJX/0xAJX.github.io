@@ -18,7 +18,8 @@
 
   <script type="text/python">
     import browser
-    browser.window.location.href = "https://jadhav.io"
+    if browser.window.location.protocol == "http:":
+      browser.window.location.href = "https://jadhav.io"
   </script>
 
   <meta charset="utf-8">
