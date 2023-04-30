@@ -12,15 +12,12 @@
 
   gtag('config', 'G-H0KJ3YWTCB');
   </script>
-	
-  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
 
-  <py-script>
-    import browser
-    if browser.window.location.protocol == "http:":
-      browser.window.location.href = "https://jadhav.io"
-  </py-script>
+  <script>
+  if (location.protocol !== 'https:') {
+    location.replace(`https:${location.href.substring(location.protocol.length)}`);
+  }
+  </script>
 
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
