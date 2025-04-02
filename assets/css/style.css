@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #51087E;
+  background: #060f8c;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #51087E;
+  border: 6px solid #060f8c;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   color: #fff;
-  background: #51087E;
+  background: #060f8c;
 }
 .nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
   color: #fff;
@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .send-mail{
-  background: #51087E;
+  background: #060f8c;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #51087E;
+  background-color: #060f8c;
 }
 
 /*--------------------------------------------------------------
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #hero p span {
-  color: #51087E;
+  color: #060f8c;
   letter-spacing: 1px;
 }
 #hero .social-links {
@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #hero .social-links a:hover {
-  color: #51087E;
+  color: #060f8c;
 }
 @media (max-width: 992px) {
   #hero {
@@ -357,7 +357,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #51087E;
+  background: #060f8c;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -388,7 +388,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #51087E;
+  color: #060f8c;
   line-height: 0;
 }
 .about .content p:last-child {
@@ -412,7 +412,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #51087E;
+  background: #060f8c;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
@@ -463,7 +463,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #51087E;
+  background-color: #060f8c;
 }
 
 /*--------------------------------------------------------------
@@ -479,7 +479,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #51087E;
+  border-left: 2px solid #060f8c;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -488,7 +488,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #51087E;
+  color: #060f8c;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -517,7 +517,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #51087E;
+  border: 2px solid #060f8c;
 }
 
 /*--------------------------------------------------------------
@@ -548,7 +548,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #51087E;
+  color: #060f8c;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -678,10 +678,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #51087E;
+  border: 1px solid #060f8c;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #51087E;
+  background-color: #060f8c;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -883,10 +883,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #51087E;
+  border: 1px solid #060f8c;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #51087E;
+  background-color: #060f8c;
 }
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
@@ -903,7 +903,7 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #51087E;
+  color: #060f8c;
   float: left;
   width: 44px;
   height: 44px;
@@ -931,7 +931,7 @@ section {
   margin-top: 40px;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #51087E;
+  background: #060f8c;
   color: #fff;
 }
 .contact .php-email-form {
@@ -990,7 +990,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #51087E;
+  background: #060f8c;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1047,7 +1047,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #51087E;
+  background: #060f8c;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
