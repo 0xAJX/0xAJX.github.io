@@ -31,9 +31,9 @@ function prompt {
     # Git info
     $gitPart = ""
     if ($branch) {
-        $gitPart = "$gray git:$reset($red$branch$reset)$reset "
+        $gitPart = "$green git:$reset($red$branch$reset)$reset "
     }
 
     # Compose final line
-    "$promptSymbol $cyan$currentPath$reset $gitPart$green$time$reset $gold$ "
+    "$promptSymbol $cyan$currentPath$reset$gitPart $gray$time$reset $gold$ "
 }
