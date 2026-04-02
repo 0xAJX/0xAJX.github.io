@@ -440,19 +440,7 @@ section {
 }
 
 .hero-profile {
-  display: grid;
-  grid-template-columns: 108px 1fr;
-  gap: 18px;
-  align-items: center;
   margin-bottom: 22px;
-}
-
-.hero-profile img {
-  width: 108px;
-  height: 108px;
-  border-radius: 24px;
-  object-fit: cover;
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
 }
 
 .profile-copy p {
@@ -905,18 +893,12 @@ section {
   }
 
   #hero h1 {
-    font-size: clamp(2rem, 9vw, 3rem);
+    font-size: clamp(1.85rem, 8.2vw, 2.75rem);
   }
 
   .hero-panel-top,
   .hero-profile {
     grid-template-columns: 1fr;
-    display: grid;
-  }
-
-  .hero-profile img {
-    width: 96px;
-    height: 96px;
   }
 }
 
