@@ -99,15 +99,15 @@ section {
   color: var(--accent);
 }
 
-.section-kicker::before,
-.eyebrow::before,
-.panel-label::before {
-  content: "";
-  width: 34px;
-  height: 1px;
-  background: currentColor;
-  opacity: 0.8;
-}
+/*.section-kicker::before,*/
+/*.eyebrow::before,*/
+/*.panel-label::before {*/
+/*  content: "";*/
+/*  width: 34px;*/
+/*  height: 1px;*/
+/*  background: currentColor;*/
+/*  opacity: 0.8;*/
+/*}*/
 
 .section-title h2 {
   font-size: clamp(1.55rem, 2.8vw, 2.5rem);
